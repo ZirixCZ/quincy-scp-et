@@ -1,0 +1,26 @@
+<template>
+  <div class="home">
+    <HelloWorld title="QuincyET Party" />
+    <InformationFlex />
+    <Events date="(hard coded date)"/>
+    <Faq />
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import HelloWorld from "@/components/HelloWorld.vue";
+import InformationFlex from "@/components/InformationFlex.vue";
+import Faq from "@/components/Faq.vue";
+import Events from "@/components/Events.vue";
+
+export default {
+  name: "Home",
+  components: {
+    HelloWorld,
+    InformationFlex,
+    Faq,
+    Events,
+  },
+};
+</script>
