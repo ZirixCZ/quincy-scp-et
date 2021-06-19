@@ -2,8 +2,9 @@
   <div class="home">
     <HelloWorld title="QuincyET Party" />
     <InformationFlex />
-    <Events date="(hard coded date)"/>
+    <Events date="4/12"/>
     <Faq />
+    <Footer />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 import InformationFlex from "@/components/InformationFlex.vue";
 import Faq from "@/components/Faq.vue";
 import Events from "@/components/Events.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Home",
@@ -21,6 +23,7 @@ export default {
     InformationFlex,
     Faq,
     Events,
+    Footer,
   },
 };
 </script>

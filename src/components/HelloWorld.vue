@@ -1,18 +1,20 @@
 <template>
-<transition appear>
-<div class="title-div">
-    <h1>{{ title }}</h1>
-    <button>join us</button>
-    <h2>There is <span>xx</span> active people right now.</h2>
-  </div>
-</transition>
+  <transition appear>
+    <div class="title-div">
+      <h1>{{ title }}</h1>
+      <button>join us</button>
+      <h2>There is <span>{{ players }}</span> active people right now.</h2>
+    </div>
+  </transition>
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: "HelloWorld",
-    data () {
+  data () {
     return {
+      players: 0,
       showPara: true,
       lastScrollPosition: 0
     }
@@ -20,6 +22,10 @@ export default {
   props: {
     title: String,
   },
+  async mounted () {
+    const response = await axios.get('http://localhost:8080/api/ServerInfo/HostApi/Servers?key=GKvHjavfKmU=')
+    this.players = response.data.Servers[0].PlayerCount
+  }
 };
 </script>
 
@@ -33,6 +39,7 @@ export default {
     position: relative;
     top: 30%;
     font-size: 120px;
+    filter: drop-shadow(1px 1px 50px rgba(0, 0, 0, 0.15));
   }
   h2 {
     position: relative;
@@ -47,8 +54,8 @@ export default {
     width: 250px;
     height: 50px;
     word-spacing: 10px;
-        letter-spacing: 2px;
-    background-color: white;
+    letter-spacing: 2px;
+    background-color:rgb(250, 250, 250);
     border-color: #2c3e50;
     cursor: pointer;
     transition: 0.2s ease-in-out;

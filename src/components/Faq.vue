@@ -18,7 +18,7 @@ export default {
     position: relative;
     display: flex;
     text-align: center;
-    height: 100vh;
+    height: 200vh;
     li {
     flex-direction: column;
     position: relative;
@@ -31,7 +31,7 @@ export default {
     width: 100%;
     font-size: 25px;
     font-weight: 400;
-    top: 30%;
+    top: 20%;
     span {
     list-style-type: none;
     padding-bottom: 150px;
@@ -82,5 +82,15 @@ export default {
           font-size: 40px;
       }
    
+  }
+    @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .faq-container {
+          li {
+              padding-left: 50px;
+          }
+      }
   }
 </style>

@@ -2,8 +2,8 @@
     <div class="container">
         <div class="title"><h2>Events</h2></div>
         <div class="events-container">
-            <h3>Event Name One {{ date }}<span><br/>Even Name One Information Long Name Calling Random Stuff Put In keyboard Are.</span></h3>
-            <h3>Event Name Two {{ date }}<span><br/>Even Name Two Information Long Name Calling Random Stuff Put In keyboard Are.</span></h3>
+            <h3>Event Name {{ date }}<span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Hac habitasse platea dictumst quisque.</span></h3>
+            <h3>Event Name {{ date }}<span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Hac habitasse platea dictumst quisque.</span></h3>
         </div>
     </div>
 </template>
