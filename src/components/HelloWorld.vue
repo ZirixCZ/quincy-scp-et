@@ -23,7 +23,7 @@ export default {
     title: String,
   },
   async mounted () {
-    const response = await axios.get('http://localhost:8080/api/ServerInfo/HostApi/Servers?key=GKvHjavfKmU=')
+    const response = await axios.get('http://localhost:8080/api/ServerInfo/HostApi/Servers?key=')
     this.players = response.data.Servers[0].PlayerCount
   }
 };
