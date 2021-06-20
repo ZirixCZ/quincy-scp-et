@@ -55,4 +55,13 @@ body,html {
 ::-webkit-scrollbar-track {
     background-color: #ffffff;
 }
+/*selection*/
+::-moz-selection { /* Code for Firefox */
+    color: rgb(255, 217, 173);
+    background: #50302c;
+}  
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(212, 71, 71);
+}
 </style>

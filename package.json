@@ -6,9 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
-
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "gulp": "^4.0.2",

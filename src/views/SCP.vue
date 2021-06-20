@@ -18,6 +18,11 @@ export default {
 <style scoped lang="scss">
 .SCP {
     background-color: #080908;
-    height: 500vh;
+    height: 1000vh;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .SCP {
+    height: 3000vh;
+  }
 }
 </style>

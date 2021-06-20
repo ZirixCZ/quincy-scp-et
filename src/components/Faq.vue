@@ -1,11 +1,11 @@
 <template>
         <div class="faq-container">
-            <div class="faq-title"><h2>Frequently Asked Questions <i class="fas fa-question-circle"></i></h2></div>
-            <ul><li>Is the game free?<span><br/>- Yes, the game is free. <a href="https://store.steampowered.com/app/1394270/SCP_Escape_Together/">SCP:ET</a></span></li>
-            <li>How can I play the game with my friends?<span><br/>- Click on the serverlist in the main menu and connect to a server.</span></li>
-            <li>Is the game a cryptocurrency miner?<span><br/>- No, it is not a miner.</span></li>
-            <li>Is there an official discord server for the game?<span><br/>- Yes, there is. <a href="https://discord.gg/Y6ZSPwWSe6">SCP:ET Discord server</a></span></li>
-            <li>Which SCPs/Items from the original game can I currently find in SCP:ET?<span><br/>- You can find the list of all SCPs and Items currently in the game <router-link to="SCP">here.</router-link></span></li></ul>
+            <div class="faq-title" data-aos="fade-up" data-aos-delay="100"><h2>Frequently Asked Questions <i class="fas fa-question-circle"></i></h2></div>
+            <ul><li data-aos="fade-right" data-aos-delay="100">Is the game free?<span><br/>- Yes, the game is free. <a href="https://store.steampowered.com/app/1394270/SCP_Escape_Together/">SCP:ET</a></span></li>
+            <li data-aos="fade-right" data-aos-delay="0">How can I play the game with my friends?<span><br/>- Click on the serverlist in the main menu and connect to a server.</span></li>
+            <li data-aos="fade-right" data-aos-delay="0">Is the game a cryptocurrency miner?<span><br/>- No, it is not a miner.</span></li>
+            <li data-aos="fade-right" data-aos-delay="0">Is there an official discord server for the game?<span><br/>- Yes, there is. <a href="https://discord.gg/Y6ZSPwWSe6">SCP:ET Discord server</a></span></li>
+            <li data-aos="fade-right" data-aos-delay="0">Which SCPs/Items from the original game can I currently find in SCP:ET?<span><br/>- You can find the list of all SCPs and Items currently in the game <router-link to="SCP">here.</router-link></span></li></ul>
         </div>
 </template>
 <script>
@@ -32,6 +32,10 @@ export default {
     font-size: 25px;
     font-weight: 400;
     top: 20%;
+    a {
+        color: rgb(179, 74, 74);
+        text-decoration: none;
+    }
     span {
     list-style-type: none;
     padding-bottom: 150px;
@@ -58,9 +62,9 @@ export default {
 }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
       .faq-container {
-          height: 120vh;
+          height: 230vh;
           li {
-              top: 40%;
+              top: 10%;
               padding-left: 10px;
               width: 80%;
           }
@@ -69,6 +73,19 @@ export default {
           font-size: 40px;
       }
   }
+  @media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
+      .faq-container {
+          height: 320vh;
+          li {
+              top: 10%;
+              padding-left: 10px;
+              width: 80%;
+          }
+      }
+      .faq-title h2 {
+          font-size: 40px;
+      }
+}
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
         .faq-container {
           height: 120vh;

@@ -1,11 +1,9 @@
 <template>
-  <transition appear>
     <div class="title-div">
-      <h1>{{ title }}</h1>
-      <button>join us</button>
-      <h2>There is <span>{{ players }}</span> active people right now.</h2>
+      <h1 data-aos="fade-up" data-aos-delay="50">QuincyET Party</h1>
+      <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250"><button>join us</button></div>
+      <h2 data-aos="fade-up" data-aos-delay="150">There is <span>{{ players }}</span> people playing right now.</h2>
     </div>
-  </transition>
 </template>
 
 <script>
@@ -18,9 +16,6 @@ export default {
       showPara: true,
       lastScrollPosition: 0
     }
-  },
-  props: {
-    title: String,
   },
   async mounted () {
     const response = await axios.get('http://localhost:8080/api/ServerInfo/HostApi/Servers?key=')
@@ -37,20 +32,24 @@ export default {
   height: 100vh;
   h1 {
     position: relative;
-    top: 30%;
-    font-size: 120px;
-    filter: drop-shadow(1px 1px 50px rgba(0, 0, 0, 0.15));
+    top: 40%;
+    font-size: 150px;
+    filter: drop-shadow(1px 1px 50px rgba(0, 0, 0, 0.1));
+    margin: 0;
   }
   h2 {
     position: relative;
-    top: 25%;
+    top: 40%;
     span {
       color: rgb(212, 71, 71);
     }
   }
+  .button-wrapper {
+    position: relative;
+    top: 55%;
   button {
     position: relative;
-    top: 40%;
+
     width: 250px;
     height: 50px;
     word-spacing: 10px;
@@ -65,6 +64,7 @@ export default {
 
     }
   }
+  }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .title-div {
@@ -72,9 +72,26 @@ export default {
         font-size: 40px;
       }
       h2 {
-        top: 20%;
+        top: 40%;
+        font-size: 15px;
+      }
+    .button-wrapper {
+        top: 60%;
+  }
+    }
+}
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .title-div {
+      h1 {
+        font-size: 120px;
+      }
+      h2 {
+        top: 38%;
         font-size: 20px;
       }
     }
-}
+  }
 </style>

@@ -1,9 +1,9 @@
 <template>
     <div class="container">
-        <div class="title"><h2>Events</h2></div>
+        <div class="title" data-aos="fade-up" data-aos-delay="100"><h2>Events</h2></div>
         <div class="events-container">
-            <h3>Event Name {{ date }}<span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Hac habitasse platea dictumst quisque.</span></h3>
-            <h3>Event Name {{ date }}<span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Hac habitasse platea dictumst quisque.</span></h3>
+            <h3 data-aos="fade-in" data-aos-delay="200">Event Name {{ date }}<span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque.</span></h3>
+            <h3 data-aos="fade-in" data-aos-delay="100">Event Name {{ date }}<span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque.</span></h3>
         </div>
     </div>
 </template>
@@ -36,9 +36,19 @@ export default {
     }
     }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 400px) and (max-device-width: 480px) {
     .container {
-        height: 170vh;
+        height: 180vh;
+    }
+    .events-container {
+        h3 {
+            padding-bottom: 50px;
+        }
+    }
+}
+@media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
+    .container {
+        height: 240vh;
     }
     .events-container {
         h3 {

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <a className="rights" href="https://google.com/" target="_blank"> Follow this project on <b>GitHub <i class="fab fa-github"></i></b></a>
+        <a className="rights" href="https://github.com/ZirixCZ/quincy-scp-et" target="_blank"> Follow this project on <b>GitHub <i class="fab fa-github"></i></b></a>
     </div>
 </template>
 <style scoped lang="scss">

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld title="QuincyET Party" />
+    <HelloWorld />
     <InformationFlex />
     <Events date="4/12"/>
     <Faq />
