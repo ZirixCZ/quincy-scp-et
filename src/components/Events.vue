@@ -46,9 +46,9 @@ export default {
     h3 {
     justify-content: center;
     padding-top: 75px;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
     line-height: 50px;
-    font-size: 40px;
+    font-size: 70px;
     span {
     font-size: 20px;
     }
@@ -57,20 +57,34 @@ export default {
 @media only screen and (min-device-width: 400px) and (max-device-width: 480px) {
     .container {
         height: 180vh;
+        h2 {
+            font-size: 40px;
+        }
     }
     .events-container {
         h3 {
+            font-size: 25px;
             padding-bottom: 50px;
+            span {
+                font-size: 15px;
+            }
         }
     }
 }
 @media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
     .container {
         height: 240vh;
+        h2 {
+            font-size: 40px;
+        }
     }
     .events-container {
         h3 {
+            font-size: 25px;
             padding-bottom: 50px;
+            span {
+                font-size: 15px;
+            }
         }
     }
     .header-image {

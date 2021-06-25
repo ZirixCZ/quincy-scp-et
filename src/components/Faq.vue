@@ -21,6 +21,7 @@ export default {
     height: 180vh;
     color: rgb(247, 247, 247);
     background-image: linear-gradient(#2C2C50, #242442);
+    margin: 0;
     li {
     flex-direction: column;
     position: relative;
@@ -31,7 +32,7 @@ export default {
     list-style-type: none;
     padding-left: 300px;
     width: 100%;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     top: 20%;
     a {
@@ -40,7 +41,7 @@ export default {
     }
     span {
     list-style-type: none;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     font-size: 20px;
     font-weight: 300;
     }
@@ -57,7 +58,7 @@ export default {
 .faq-title h2 {
     position: absolute;
     flex: 50%;
-    font-size: 80px;
+    font-size: 90px;
     padding-top: 100px;
     font-weight: 300;
     top: 0;

@@ -66,7 +66,7 @@ export default {
 
     width: 250px;
     height: 50px;
-    word-spacing: 10px;
+    word-spacing: 4px;
     letter-spacing: 2px;
     background-color:rgb(250, 250, 250);
     border-color: #2c3e50;
