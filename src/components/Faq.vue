@@ -19,6 +19,8 @@ export default {
     display: flex;
     text-align: center;
     height: 200vh;
+    color: rgb(247, 247, 247);
+    background-image: linear-gradient(#2C2C50, #2C2C50);
     li {
     flex-direction: column;
     position: relative;
@@ -33,7 +35,7 @@ export default {
     font-weight: 400;
     top: 20%;
     a {
-        color: rgb(179, 74, 74);
+        color: rgb(88, 90, 219);
         text-decoration: none;
     }
     span {
@@ -56,6 +58,7 @@ export default {
     position: absolute;
     flex: 50%;
     font-size: 80px;
+    padding-top: 100px;
     font-weight: 300;
     top: 0;
     margin: 0;

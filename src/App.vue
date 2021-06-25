@@ -57,11 +57,11 @@ body,html {
 }
 /*selection*/
 ::-moz-selection { /* Code for Firefox */
-    color: rgb(255, 217, 173);
-    background: #50302c;
+    color: rgb(255, 255, 255);
+    background: rgb(20, 24, 32);
 }  
 ::selection {
     color: rgb(255, 255, 255);
-    background: rgb(212, 71, 71);
+    background: rgb(20, 24, 32);
 }
 </style>

@@ -280,6 +280,7 @@ export default {
     font-weight: 400;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    color: #0c1116;
 }
 .themachine {
     background-image: url("~@/assets/scpet/scpimages/914.png");

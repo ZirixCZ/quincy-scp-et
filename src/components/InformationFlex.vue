@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div class="titleLeft" data-aos="fade-up" data-aos-delay="100"><h2>About SCP:ET</h2><p>Based off of the 2012 horror game SCP: Containment Breach. Partner up or compete against your friends to explore the vast facility as well as gather useful, unknown, and potentially dangerous items to assist your escape and evade the potentially dangerous anomalies that roam the locked down facility.</p></div>
         <div class="titleRight" data-aos="fade-up" data-aos-delay="100"><h2>The plot</h2><p>Before the events of the game take place, several of the Foundation's sites and sectors were attacked, which caused several Euclid and Keter SCPs to be temporarily relocated to an unspecified site until repairs on the previous facilities are completed. It was unable to handle the quantity of SCPs it currently possessed.</p></div>
     </div>
@@ -27,11 +27,12 @@ body, html {
     margin: 0;
     padding: 0;
 }
-div {
+.container {
     position: relative;
     display: flex;
-    height: 70vh;
+    height: 25vh;
     top: 20%;
+    z-index: 2;
     .titleLeft {
     display: flex;
     align-items: center;
@@ -67,8 +68,8 @@ div {
     }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-div {
-    height: 120vh;
+.container {
+    height: 80vh;
     .titleLeft {
         h2 {
             font-size: 30px;

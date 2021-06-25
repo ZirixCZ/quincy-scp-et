@@ -1,5 +1,6 @@
 <template>
     <div class="title-div">
+      <div class="header-image" data-aos="fade-in" data-aos-delay="200"></div>
       <h1 data-aos="fade-up" data-aos-delay="50">QuincyET Party</h1>
       <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250"><button>join us</button></div>
       <h2 data-aos="fade-up" data-aos-delay="150">There is <span>{{ players }}</span> people playing right now.</h2>
@@ -26,10 +27,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.header-image {
+  background-image: url("~@/assets/wawe-front.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-color: #2c3e50;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+
+}
 .title-div {
   position: relative;
   text-align: center;
   height: 100vh;
+  color: rgb(247, 247, 247);
   h1 {
     position: relative;
     top: 40%;
@@ -41,7 +54,8 @@ export default {
     position: relative;
     top: 40%;
     span {
-      color: rgb(212, 71, 71);
+      color: #4c8d6d;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.288);
     }
   }
   .button-wrapper {
