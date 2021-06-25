@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import SCP from "../views/SCP.vue";
+import List from "../views/List.vue";
 
 const routes = [
   {
@@ -9,9 +9,9 @@ const routes = [
     component: Home,
   },
   {
-    path: "/scp",
-    name: "SCP",
-    component: SCP,
+    path: "/list",
+    name: "LIST",
+    component: List,
   },
   {
     path: "/about",

@@ -5,7 +5,7 @@
             <li data-aos="fade-right" data-aos-delay="0">How can I play the game with my friends?<span><br/>- Click on the serverlist in the main menu and connect to a server.</span></li>
             <li data-aos="fade-right" data-aos-delay="0">Is the game a cryptocurrency miner?<span><br/>- No, it is not a miner.</span></li>
             <li data-aos="fade-right" data-aos-delay="0">Is there an official discord server for the game?<span><br/>- Yes, there is. <a href="https://discord.gg/Y6ZSPwWSe6">SCP:ET Discord server</a></span></li>
-            <li data-aos="fade-right" data-aos-delay="0">Which SCPs/Items from the original game can I currently find in SCP:ET?<span><br/>- You can find the list of all SCPs and Items currently in the game <router-link to="SCP">here.</router-link></span></li></ul>
+            <li data-aos="fade-right" data-aos-delay="0">Which SCPs/Items from the original game can I currently find in SCP:ET?<span><br/>- You can find the list of all SCPs and Items currently in the game <router-link to="List">here.</router-link></span></li></ul>
         </div>
 </template>
 <script>

@@ -73,7 +73,7 @@ export default {
 }
 @media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
     .container {
-        height: 240vh;
+        height: 200vh;
         h2 {
             font-size: 40px;
         }
