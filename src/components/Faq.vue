@@ -18,9 +18,9 @@ export default {
     position: relative;
     display: flex;
     text-align: center;
-    height: 200vh;
+    height: 180vh;
     color: rgb(247, 247, 247);
-    background-image: linear-gradient(#2C2C50, #2C2C50);
+    background-image: linear-gradient(#2C2C50, #242442);
     li {
     flex-direction: column;
     position: relative;
@@ -35,7 +35,7 @@ export default {
     font-weight: 400;
     top: 20%;
     a {
-        color: rgb(88, 90, 219);
+        color: rgb(89, 137, 201);
         text-decoration: none;
     }
     span {

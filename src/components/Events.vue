@@ -25,7 +25,7 @@ export default {
     z-index: 1;
     h2 {
         padding-top: 300px;
-        font-size: 80px;
+        font-size: 150px;
     }
 }
 .header-image {
@@ -45,8 +45,8 @@ export default {
     height: 90vh;
     h3 {
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 75px;
+    padding-bottom: 250px;
     line-height: 50px;
     font-size: 40px;
     span {
