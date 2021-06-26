@@ -31,7 +31,7 @@ export default {
     justify-content: center;
     list-style-type: none;
     padding-left: 300px;
-    width: 100%;
+    width: 50%;
     font-size: 30px;
     font-weight: 400;
     top: 20%;

@@ -20,7 +20,7 @@ export default {
 .container {
     position: relative;
     height: 160vh;
-            background-image: linear-gradient(#2C2C50, #2C2C50);
+    background-image: linear-gradient(#2C2C50, #2C2C50);
     color: rgb(247, 247, 247);
     z-index: 1;
     h2 {
