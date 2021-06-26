@@ -1,8 +1,8 @@
 <template>
     <div class="title-div">
       <div class="header-image" data-aos="fade-in" data-aos-delay="200"></div>
-      <h1 data-aos="fade-up" data-aos-delay="50">QuincyET Party</h1>
-      <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250"><button>join us</button></div>
+      <h1 data-aos="fade-up" data-aos-delay="50">Quincy's Party</h1>
+      <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250" onclick="location.href='https://discord.com/invite/F2zFuaB;"><button>join us</button></div>
       <h2 data-aos="fade-up" data-aos-delay="150">There is <span>{{ players }}</span> people playing right now.</h2>
     </div>
 </template>
