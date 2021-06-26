@@ -1,12 +1,15 @@
 # SCP: Escape Together - Quincys Party
 
-# About the project
+This application was created to show information about the **SCP: Escape Together** server called *„Quincys Party.“* <br/><br/>  The application includes<br/> 
+* the name of the server 
+* current active people on the server 
+* join us button referring to our official discord server 
+* events section and a FAQ section. 
+<br/> <br/> <br/>The goal of this project is to bring more people to the the party and make the community bigger.
 
-## This application was created to show information about the SCP: Escape Together server called „Quincys Party.“ The application includes the name of the server, current active people on the server, Join Us button referring to our official discord server, events section and a FAQ section. The goal of this project is to bring more people to the the party and make the community bigger.
+   ![quincyet-readmemdphoto](https://user-images.githubusercontent.com/49836430/123515080-774e7100-d696-11eb-9a95-bd4deb9ea883.PNG)
 
-## Header Photo
-   ![Screenshot 2020-02-09 at 5 08 54 PM](~@/assets/wawe-front.svg)
-
+*If you like this project, please consider starring it.*
 # Project setup
 ```
 npm install
@@ -29,5 +32,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## If you like this project, please consider starring it.
