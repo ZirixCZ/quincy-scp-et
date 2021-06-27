@@ -1,6 +1,6 @@
 # SCP: Escape Together - Quincys Party
 
-This application was created to show information about the **SCP: Escape Together** server called *„Quincy's Party.“* <br/><br/>  The application includes<br/> 
+This application was created to show information about the **SCP: Escape Together** server called *„Quincys Party.“* <br/><br/>  The application includes<br/> 
 * the name of the server 
 * current active people on the server 
 * join us button referring to our official discord server 
