@@ -1,0 +1,16 @@
+#app, html {
+    background-color: black;
+    color: white;
+}
+.header-image {
+    visibility: hidden;
+}
+body {
+    background-color: black;
+}
+.container {
+    background-image: linear-gradient(#000000, #000000) !important;
+}
+.faq-container {
+    background-image: linear-gradient(#000000, #000000) !important;
+}

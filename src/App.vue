@@ -4,18 +4,12 @@
 
 
 <script>
-/*import axios from 'axios'
 export default {
   name: 'App',
   data() {
     return {
     }
-  },
-  mounted: function () {
-   axios.get('http://localhost:8080/api/ServerInfo/HostApi/Servers?key=K+I+Z1MNnHE=')
-  .then(response => console.log(response.data))
-  .catch(error => console.error(error));
-  }}*/
+  },}
 </script>
 
 <style lang="scss">
@@ -38,7 +32,6 @@ body,html {
   margin: 0;
   box-sizing: border-box;
 }
-
 /*scrollbar*/
 ::-webkit-scrollbar {
     -webkit-appearance: none;

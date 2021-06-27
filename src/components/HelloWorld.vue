@@ -5,6 +5,7 @@
       <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250" onclick="location.href='https://discord.com/invite/F2zFuaB;"><button>join us</button></div>
       <h2 data-aos="fade-up" data-aos-delay="150">There is <span>{{ players }}</span> people playing right now.</h2>
     </div>
+    <div class="switch-div" data-aos="fade-in" data-aos-delay="500"><button class="switch" @click="darkThemeSwitch"><i class="fas fa-moon"></i></button></div>
 </template>
 
 <script>
@@ -21,7 +22,36 @@ export default {
   async mounted () {
     const response = await axios.get('http://localhost:8080/api/ServerInfo/HostApi/Servers?key=')
     this.players = response.data.Servers[0].PlayerCount
-  }
+  },
+      methods: {
+  //https://dev.to/nuculabs_dev/simple-dark-theme-switch-with-vue-js-59hp - I got the code there
+    
+    // links the dark theme
+    _addDarkTheme() {
+      let darkThemeLinkEl = document.createElement("link");
+      darkThemeLinkEl.setAttribute("rel", "stylesheet");
+      darkThemeLinkEl.setAttribute("href", "/styles/darktheme.css");
+      darkThemeLinkEl.setAttribute("id", "dark-theme-style");
+
+      let docHead = document.querySelector("head");
+      docHead.append(darkThemeLinkEl);
+    },
+    // unlinks the dark theme
+    _removeDarkTheme() {
+      let darkThemeLinkEl = document.querySelector("#dark-theme-style");
+      let parentNode = darkThemeLinkEl.parentNode;
+      parentNode.removeChild(darkThemeLinkEl);
+    },
+    // switches between linked and unlinked
+    darkThemeSwitch() {
+      let darkThemeLinkEl = document.querySelector("#dark-theme-style");
+      if (!darkThemeLinkEl) {
+        this._addDarkTheme()
+      } else {
+        this._removeDarkTheme()
+      }
+    }
+}
 };
 </script>
 
@@ -80,6 +110,28 @@ export default {
   }
   }
 }
+  .switch-div {
+    position: absolute;
+    display: flex;
+    top: 0%;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: flex-start;
+    .switch {
+      background: none;
+      border: none;
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      padding-left: 5%;
+      transition: 0.3s;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+  }
+  }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .title-div {
       h1 {
