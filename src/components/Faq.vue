@@ -18,7 +18,7 @@ export default {
     position: relative;
     display: flex;
     text-align: center;
-    height: 180vh;
+    height: 150vh;
     color: rgb(247, 247, 247);
     background-image: linear-gradient(#2C2C50, #242442);
     margin: 0;

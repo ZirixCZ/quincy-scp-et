@@ -2,10 +2,14 @@
     <div class="title-div">
       <div class="header-image" data-aos="fade-in" data-aos-delay="200"></div>
       <h1 data-aos="fade-up" data-aos-delay="50">Quincy's Party</h1>
-      <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250" onclick="location.href='https://discord.com/invite/F2zFuaB;"><button>join us</button></div>
+      <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250" onclick="location.href='https://discord.com/invite/F2zFuaB';"><button>join us</button></div>
       <h2 data-aos="fade-up" data-aos-delay="150">There is <span>{{ players }}</span> people playing right now.</h2>
     </div>
-    <div class="switch-div" data-aos="fade-in" data-aos-delay="500"><button class="switch" @click="darkThemeSwitch"><i class="fas fa-moon"></i></button></div>
+  <div class="nav">
+    <div id="nav-item-first" data-aos="fade-right" data-aos-delay="700"><button class="switch nav-item" @click="darkThemeSwitch"><i class="fas fa-moon"></i></button></div>
+    <div id="nav-item-second" data-aos="fade-right" data-aos-delay="500" onclick="location.href='https://www.reddit.com/r/QuincysSCPparty/';"><button class="nav-item"><i class="fab fa-reddit-alien"></i></button></div>
+    <div id="nav-item-third" data-aos="fade-right" data-aos-delay="300" onclick="location.href='https://discord.com/invite/F2zFuaB';"><button class="nav-item"><i class="fab fa-discord"></i></button></div>
+  </div>
 </template>
 
 <script>
@@ -110,7 +114,7 @@ export default {
   }
   }
 }
-  .switch-div {
+  .nav {
     position: absolute;
     display: flex;
     top: 0%;
@@ -118,7 +122,16 @@ export default {
     height: 10vh;
     align-items: center;
     justify-content: flex-start;
-    .switch {
+    #nav-item-first {
+      padding-left: 5%;
+    }
+    #nav-item-second {
+      padding-left: 5%;
+    }
+    #nav-item-third {
+      padding-left: 5%;
+    }
+    .nav-item {
       background: none;
       border: none;
       text-decoration: none;
