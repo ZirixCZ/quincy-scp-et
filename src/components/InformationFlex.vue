@@ -69,23 +69,35 @@ body, html {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 .container {
-    height: 80vh;
+    height: 100vh;
+    flex-direction: column;
+    p {
+        font-weight: 600;
+    }
     .titleLeft {
+        width: 100%;
         h2 {
             font-size: 30px;
         }
         p {
-                font-size: 13px;
+                font-size: 15px;
+                padding-bottom: 90px;
         }
     }
         .titleRight {
+        width: 100%;
         h2 {
             font-size: 30px;
         }
         p {
-                font-size: 13px;
+                font-size: 15px;
         }
     }
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 360px) {
+    .container {
+    height: 130vh;
 }
 }
 </style>

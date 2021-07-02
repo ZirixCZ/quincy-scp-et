@@ -24,7 +24,7 @@ export default {
     }
   },
   async mounted () {
-    const response = await axios.get('http://localhost:8080/api/ServerInfo/HostApi/Servers?key=')
+    const response = await axios.get('http://localhost:8080/api/ServerInfo/HostApi/Servers?key=' + process.env.VUE_APP_ROOT_API)
     this.players = response.data.Servers[0].PlayerCount
   },
       methods: {

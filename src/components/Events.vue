@@ -75,7 +75,7 @@ export default {
     .container {
         height: 200vh;
         h2 {
-            font-size: 40px;
+            font-size: 60px;
         }
     }
     .events-container {
@@ -84,6 +84,7 @@ export default {
             padding-bottom: 50px;
             span {
                 font-size: 15px;
+                font-weight: 400;
             }
         }
     }

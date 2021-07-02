@@ -79,7 +79,7 @@ export default {
   }
   @media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
       .faq-container {
-          height: 320vh;
+          height: 290vh;
           li {
               top: 10%;
               padding-left: 10px;
