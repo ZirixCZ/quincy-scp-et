@@ -1,9 +1,9 @@
 <template>
         <div class="faq-container">
             <div class="faq-title" data-aos="fade-up" data-aos-delay="100"><h2>Frequently Asked Questions <i class="fas fa-question-circle"></i></h2></div>
-            <ul><li data-aos="fade-right" data-aos-delay="100">Is the game free?<span><br/>- Yes, the game is free. <a href="https://store.steampowered.com/app/1394270/SCP_Escape_Together/">SCP:ET</a></span></li>
-            <li data-aos="fade-right" data-aos-delay="0">How can I play the game with my friends?<span><br/>- Click on the serverlist in the main menu and connect to a server.</span></li>
-            <li data-aos="fade-right" data-aos-delay="0">Is the game a cryptocurrency miner?<span><br/>- No, it is not a miner.</span></li>
+            <ul><li data-aos="fade-right" data-aos-delay="100">Is the game free?<span><br/>- Yes, the game is free. You can download the game here. <a href="https://store.steampowered.com/app/1394270/SCP_Escape_Together/">SCP:ET</a></span></li>
+            <li data-aos="fade-right" data-aos-delay="0">How can I play the game with my friends?<span><br/>- Click on the serverlist in the main menu. Select a server and click on "Join."</span></li>
+            <li data-aos="fade-right" data-aos-delay="0">Is the game a cryptocurrency miner?<span><br/>- No, it is not a miner. If you have a lower end machine, consider lowering the graphical settings.</span></li>
             <li data-aos="fade-right" data-aos-delay="0">Is there an official discord server for the game?<span><br/>- Yes, there is. <a href="https://discord.gg/Y6ZSPwWSe6">SCP:ET Discord server</a></span></li>
             <li data-aos="fade-right" data-aos-delay="0">Which SCPs/Items from the original game can I currently find in SCP:ET?<span><br/>- You can find the list of all SCPs and Items currently in the game <router-link to="List">here.</router-link></span></li></ul>
         </div>
@@ -18,7 +18,7 @@ export default {
     position: relative;
     display: flex;
     text-align: center;
-    height: 150vh;
+    height: 200vh;
     color: rgb(247, 247, 247);
     background-image: linear-gradient(#2C2C50, #242442);
     margin: 0;
@@ -31,6 +31,7 @@ export default {
     justify-content: center;
     list-style-type: none;
     padding-left: 300px;
+    padding-top: 75px;
     width: 50%;
     font-size: 30px;
     font-weight: 400;
@@ -60,13 +61,13 @@ export default {
     flex: 50%;
     font-size: 90px;
     padding-top: 100px;
-    font-weight: 300;
+    font-weight: 400;
     top: 0;
     margin: 0;
 }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 400px) {
       .faq-container {
-          height: 230vh;
+          height: 250vh;
           li {
               top: 10%;
               padding-left: 10px;
@@ -79,7 +80,7 @@ export default {
   }
   @media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
       .faq-container {
-          height: 290vh;
+          height: 420vh;
           li {
               top: 10%;
               padding-left: 10px;
@@ -109,9 +110,27 @@ export default {
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) {
       .faq-container {
+          height: 300vh;
           li {
               padding-left: 50px;
           }
+      }
+  }
+    @media screen 
+  and (min-device-width: 2400px) 
+  and (max-device-width: 4000px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+              .faq-container {
+          height: 180vh;
+              li {
+    font-size: 40px;
+    span {
+    font-size: 30px;
+    }
+    }
+      }
+      .faq-title h2 {
+          font-size: 120px;
       }
   }
 </style>

@@ -6,9 +6,9 @@
       <h2 data-aos="fade-up" data-aos-delay="150">There is <span>{{ players }}</span> people playing right now.</h2>
     </div>
   <div class="nav">
-    <div id="nav-item-first" data-aos="fade-right" data-aos-delay="700"><button class="switch nav-item" @click="darkThemeSwitch"><i class="fas fa-moon"></i></button></div>
-    <div id="nav-item-second" data-aos="fade-right" data-aos-delay="500" onclick="location.href='https://www.reddit.com/r/QuincysSCPparty/';"><button class="nav-item"><i class="fab fa-reddit-alien"></i></button></div>
-    <div id="nav-item-third" data-aos="fade-right" data-aos-delay="300" onclick="location.href='https://discord.com/invite/F2zFuaB';"><button class="nav-item"><i class="fab fa-discord"></i></button></div>
+    <div class="nav-item" data-aos="fade-right" data-aos-delay="700"><button class="switch nav-item" @click="darkThemeSwitch"><i class="fas fa-moon"></i></button></div>
+    <div class="nav-item" data-aos="fade-right" data-aos-delay="500" onclick="location.href='https://www.reddit.com/r/QuincysSCPparty/';"><button class="nav-item"><i class="fab fa-reddit-alien"></i></button></div>
+    <div class="nav-item" data-aos="fade-right" data-aos-delay="300" onclick="location.href='https://discord.com/invite/F2zFuaB';"><button class="nav-item"><i class="fab fa-discord"></i></button></div>
   </div>
 </template>
 
@@ -97,7 +97,6 @@ export default {
     top: 55%;
   button {
     position: relative;
-
     width: 250px;
     height: 50px;
     word-spacing: 4px;
@@ -122,13 +121,7 @@ export default {
     height: 10vh;
     align-items: center;
     justify-content: flex-start;
-    #nav-item-first {
-      padding-left: 5%;
-    }
-    #nav-item-second {
-      padding-left: 5%;
-    }
-    #nav-item-third {
+    .nav-item {
       padding-left: 5%;
     }
     .nav-item {
@@ -172,5 +165,38 @@ export default {
         font-size: 20px;
       }
     }
+  }
+    @media screen 
+  and (min-device-width: 2400px) 
+  and (max-device-width: 4000px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+        .title-div {
+      h1 {
+        font-size: 240px;
+      }
+      h2 {
+        top: 38%;
+        font-size: 35px;
+      }
+
+
+        .button-wrapper {
+  button {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    &:hover {
+      width: 270px;
+
+    }
+  }
+  }
+    }
+      .nav {
+    .nav-item {
+      font-size: 40px;
+      cursor: pointer;
+  }
+  }
   }
 </style>

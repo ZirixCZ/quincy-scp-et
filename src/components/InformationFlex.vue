@@ -100,4 +100,26 @@ body, html {
     height: 130vh;
 }
 }
+  @media screen 
+  and (min-device-width: 2400px) 
+  and (max-device-width: 4000px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.container {
+    .titleLeft {
+    h2 {
+        font-size: 60px;
+    }
+    p { 
+    font-size: 25px;
+    }
+    }
+    .titleRight {
+    h2 {
+    font-size: 60px;
+    }
+    p {
+    font-size: 25px;
+    }
+    }
+}}
 </style>

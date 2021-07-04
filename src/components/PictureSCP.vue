@@ -1,5 +1,5 @@
 <template>
-            <div class="scp-picture-title"><h2><span>SCPs</span></h2><h4>SCPs are anomalies that have been captured by the Foundation. SCPs are stored within numerous sites owned by the Foundation across the world; these sites including places such as Site-48, Site-17 and Site-02, the last site being where SCP SL takes place. While some anomalies can either be harmful or hostile, others can be very beneficial if used correctly. The following SCPs are found in-game.</h4></div>
+            <div class="scp-picture-title"><h2><span>SCPs</span></h2><h4>SCPs are anomalies that have been captured by the Foundation. SCPs are stored within numerous sites owned by the Foundation across the world; these sites including places such as Site-48, Site-17 and Site-02, the last site being where SCP Escape Together takes place. While some anomalies can either be harmful or hostile, others can be very beneficial if used correctly. The following SCPs and Items are found in-game.</h4></div>
         <div class="scp-picture-container">
             <div class="doctor" onclick="location.href='http://www.scpwiki.com/scp-049';"><a href="http://www.scpwiki.com/scp-049" target="_blank">SCP-049</a></div>
             <div class="peanut" onclick="location.href='http://www.scpwiki.com/scp-173';"><a href="http://www.scpwiki.com/scp-173" target="_blank">SCP-173</a></div>
@@ -9,7 +9,7 @@
             <div class="infection" onclick="location.href='http://www.scpwiki.com/scp-008';"><a href="http://www.scpwiki.com/scp-008" target="_blank">SCP-008</a></div>
             <div class="themachine" onclick="location.href='http://www.scpwiki.com/scp-914';"><a href="http://www.scpwiki.com/scp-914" target="_blank">SCP-914</a></div>
        </div>
-                   <div class="item-picture-title"><h2 data-aos="fade-up" data-aos-delay="50"><span>Items</span></h2><h4 data-aos="fade-up" data-aos-delay="150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4></div>
+                   <div class="item-picture-title"><h2 data-aos="fade-up" data-aos-delay="50"><span>Items</span></h2><h4 data-aos="fade-up" data-aos-delay="150">Those items had been left over after the original facility personal evacuated. Use those items wisely, your life is dependent on them. You can find them being scattered over the facility.</h4></div>
        <div class="item-picture-container">
             <div class="lvl1"><a>Level 1 Keycard</a></div>
             <div class="lvl2"><a>Level 2 Keycard</a></div>
@@ -19,7 +19,7 @@
             <div class="snav"><a>S-Nav</a></div>
             <div class="medkit"><a>First Aid Kit</a></div>
        </div>   
-                          <div class="scpitem-picture-title"><h2 data-aos="fade-up" data-aos-delay="50"><span>scpitems</span></h2><h4 data-aos="fade-up" data-aos-delay="150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4></div>
+                          <div class="scpitem-picture-title"><h2 data-aos="fade-up" data-aos-delay="50"><span>scpitems</span></h2><h4 data-aos="fade-up" data-aos-delay="150">Those SCPs do not do anything on their own, they are classed as "safe." Do not get fooled by the peaceful class name.</h4></div>
        <div class="scpitem-picture-container">
             <div class="thekey" onclick="location.href='http://www.scpwiki.com/scp-860';"><a href="http://www.scpwiki.com/scp-860" target="_blank">SCP-860</a></div>
             <div class="themask" onclick="location.href='http://www.scpwiki.com/scp-1499';"><a href="http://www.scpwiki.com/scp-1499" target="_blank">SCP-1499</a></div>

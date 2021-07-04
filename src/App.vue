@@ -17,7 +17,8 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Benne&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Roboto:wght@100&display=swap');
 $fontColor: #2c3e50;
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -51,10 +52,10 @@ body,html {
 /*selection*/
 ::-moz-selection { /* Code for Firefox */
     color: rgb(255, 255, 255);
-    background: rgb(20, 24, 32);
+    background: rgb(36, 55, 92);
 }  
 ::selection {
     color: rgb(255, 255, 255);
-    background: rgb(20, 24, 32);
+    background: rgb(33, 49, 82);
 }
 </style>

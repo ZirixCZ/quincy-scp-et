@@ -2,7 +2,7 @@
   <div class="home">
     <HelloWorld />
     <InformationFlex />
-    <Events date="4/12"/>
+    <Events date="4/12" event1="Event Name 1" event2="Event Name 2"/>
     <Faq />
     <Footer />
   </div>
