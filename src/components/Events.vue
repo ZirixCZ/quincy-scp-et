@@ -3,8 +3,13 @@
         <div class="header-image"></div>
         <div class="title" data-aos="fade-up" data-aos-delay="100"><h2>Events</h2></div>
         <div class="events-container">
-            <h3 data-aos="fade-in" data-aos-delay="200">{{ event1 }} <span class="events-date"><br/>{{ date }}</span><span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque.</span></h3>
-            <h3 data-aos="fade-in" data-aos-delay="100">{{ event2 }} <span class="events-date"><br/>{{ date }}</span><span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque.</span></h3>
+            <h3 data-aos="fade-in" data-aos-delay="200">{{ event1 }} </h3>
+                <h4 class="date-h4" data-aos="fade-in" data-aos-delay="200"><span>date:</span> {{ date }} </h4>  
+                <h4 class="des-h4" data-aos="fade-in" data-aos-delay="200"><span>description:</span> SCP-173 is made out of REDACTED. It is super fast, but only if you are not looking at it.</h4>
+                                   
+            <h3 data-aos="fade-in" data-aos-delay="200">{{ event2 }} </h3>
+                <h4 class="date-h4" data-aos="fade-in" data-aos-delay="200"><span>date:</span> {{ date }} </h4>  
+                <h4 class="des-h4" data-aos="fade-in" data-aos-delay="200"><span>description:</span> Doctor is the cure. He wants to heal you, let him to help you.. he.. is.. the cure.</h4>
         </div>
     </div>
 </template>
@@ -21,7 +26,7 @@ export default {
 <style scoped lang="scss">
 .container {
     position: relative;
-    height: 200vh;
+    height: 180vh;
     background-image: linear-gradient(#2C2C50, #2C2C50);
     color: rgb(247, 247, 247);
     z-index: 1;
@@ -47,8 +52,8 @@ export default {
     height: 90vh;
     h3 {
     justify-content: center;
-    padding-top: 75px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+
     line-height: 75px;
     font-size: 70px;
     font-weight: 500;
@@ -61,6 +66,20 @@ export default {
     font-size: 20px;
     font-weight: 300;
     }
+    }
+    h4 {
+        font-size: 18px;
+        font-weight: 400;
+        span {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+    .date-h4 {
+        padding-bottom: 50px;
+    }
+    .des-h4 {
+        padding-bottom: 150px;
     }
 }
 @media only screen and (min-device-width: 370px) and (max-device-width: 480px) {

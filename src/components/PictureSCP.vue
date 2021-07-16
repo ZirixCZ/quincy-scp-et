@@ -1,13 +1,13 @@
 <template>
-            <div class="scp-picture-title"><h2><span>SCPs</span></h2><h4>SCPs are anomalies that have been captured by the Foundation. SCPs are stored within numerous sites owned by the Foundation across the world; these sites including places such as Site-48, Site-17 and Site-02, the last site being where SCP Escape Together takes place. While some anomalies can either be harmful or hostile, others can be very beneficial if used correctly. The following SCPs and Items are found in-game.</h4></div>
+            <div class="scp-picture-title"><h2><span>SCPs</span></h2><h4>SCPs are objects/beings/places that break natural law like anti-gravity. SCPs can be classified to either Safe, Euclid and Keter.<br><b>Safe</b> = Known and is easily controlled <br><b>Euclid</b> = Not known well and need more attention than Safe SCPs <br><b>Keter</b> = Known and unknown objects/beings that are to dangerous and must be watched and monitored 24/7</h4></div>
         <div class="scp-picture-container">
-            <div class="doctor" onclick="location.href='http://www.scpwiki.com/scp-049';"><a href="http://www.scpwiki.com/scp-049" target="_blank">SCP-049</a></div>
-            <div class="peanut" onclick="location.href='http://www.scpwiki.com/scp-173';"><a href="http://www.scpwiki.com/scp-173" target="_blank">SCP-173</a></div>
-            <div class="dog" onclick="location.href='http://www.scpwiki.com/scp-939';"><a href="http://www.scpwiki.com/scp-939" target="_blank">SCP-939</a></div>
-            <div class="larry" onclick="location.href='http://www.scpwiki.com/scp-106';"><a href="http://www.scpwiki.com/scp-106" target="_blank">SCP-106</a></div>
-            <div class="zombie" onclick="location.href='http://www.scpwiki.com/scp-049';"><a href="http://www.scpwiki.com/scp-049" target="_blank">SCP-049-2</a></div>
-            <div class="infection" onclick="location.href='http://www.scpwiki.com/scp-008';"><a href="http://www.scpwiki.com/scp-008" target="_blank">SCP-008</a></div>
-            <div class="themachine" onclick="location.href='http://www.scpwiki.com/scp-914';"><a href="http://www.scpwiki.com/scp-914" target="_blank">SCP-914</a></div>
+            <div class="doctor"><a>SCP-049</a></div>
+            <div class="peanut"><a>SCP-173</a></div>
+            <div class="dog"><a>SCP-939</a></div>
+            <div class="larry"><a>SCP-106</a></div>
+            <div class="zombie"><a>SCP-049-2</a></div>
+            <div class="infection"><a>SCP-008</a></div>
+            <div class="themachine"><a>SCP-914</a></div>
        </div>
                    <div class="item-picture-title"><h2 data-aos="fade-up" data-aos-delay="50"><span>Items</span></h2><h4 data-aos="fade-up" data-aos-delay="150">Those items had been left over after the original facility personal evacuated. Use those items wisely, your life is dependent on them. You can find them being scattered over the facility.</h4></div>
        <div class="item-picture-container">
@@ -21,10 +21,10 @@
        </div>   
                           <div class="scpitem-picture-title"><h2 data-aos="fade-up" data-aos-delay="50"><span>scpitems</span></h2><h4 data-aos="fade-up" data-aos-delay="150">Those SCPs do not do anything on their own, they are classed as "safe." Do not get fooled by the peaceful class name.</h4></div>
        <div class="scpitem-picture-container">
-            <div class="thekey" onclick="location.href='http://www.scpwiki.com/scp-860';"><a href="http://www.scpwiki.com/scp-860" target="_blank">SCP-860</a></div>
-            <div class="themask" onclick="location.href='http://www.scpwiki.com/scp-1499';"><a href="http://www.scpwiki.com/scp-1499" target="_blank">SCP-1499</a></div>
-            <div class="thering" onclick="location.href='http://www.scpwiki.com/scp-714';"><a href="http://www.scpwiki.com/scp-714" target="_blank">SCP-714</a></div>
-            <div class="encyclopedia" onclick="location.href='http://www.scpwiki.com/scp-1025';"><a href="http://www.scpwiki.com/scp-1025" target="_blank">SCP-1025</a></div>
+            <div class="thekey"><a>SCP-860</a></div>
+            <div class="themask"><a>SCP-1499</a></div>
+            <div class="thering"><a>SCP-714</a></div>
+            <div class="encyclopedia"><a>SCP-1025</a></div>
        </div>           
 </template>
 <script>

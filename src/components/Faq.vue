@@ -1,11 +1,11 @@
 <template>
         <div class="faq-container">
-            <div class="faq-title" data-aos="fade-up" data-aos-delay="100"><h2>Frequently Asked Questions <i class="fas fa-question-circle"></i></h2></div>
-            <ul><li data-aos="fade-right" data-aos-delay="100">Is the game free?<span><br/>- Yes, the game is free. You can download the game here. <a href="https://store.steampowered.com/app/1394270/SCP_Escape_Together/">SCP:ET</a></span></li>
-            <li data-aos="fade-right" data-aos-delay="0">How can I play the game with my friends?<span><br/>- Click on the serverlist in the main menu. Select a server and click on "Join."</span></li>
-            <li data-aos="fade-right" data-aos-delay="0">Is the game a cryptocurrency miner?<span><br/>- No, it is not a miner. If you have a lower end machine, consider lowering the graphical settings.</span></li>
-            <li data-aos="fade-right" data-aos-delay="0">Is there an official discord server for the game?<span><br/>- Yes, there is. <a href="https://discord.gg/Y6ZSPwWSe6">SCP:ET Discord server</a></span></li>
-            <li data-aos="fade-right" data-aos-delay="0">Which SCPs/Items from the original game can I currently find in SCP:ET?<span><br/>- You can find the list of all SCPs and Items currently in the game <router-link to="List">here.</router-link></span></li></ul>
+            <div class="faq-title" data-aos="fade-up" data-aos-delay="100"><h2>Frequently Asked Questions</h2></div>
+            <ul><li data-aos="fade-right" data-aos-delay="100">Do I have to pay to play the game?<span><br/>- You do not, the game is free. You can download the game <a href="https://store.steampowered.com/app/1394270/SCP_Escape_Together/">here.</a></span></li>
+            <li data-aos="fade-right" data-aos-delay="0">Is it hard to play with my friends?<span><br/>- It is not hard at all! All you have to do, is go to the main menu, click on the server list and choose a server.</span></li>
+            <li data-aos="fade-right" data-aos-delay="0">I heard some people say the game is a cryptocurrency miner, is it true?<span><br/>- Absolutely not true. If you have a lower end machine, consider lowering the graphical settings. The game is still in Early Access and the developers are working on optimizing the game.</span></li>
+            <li data-aos="fade-right" data-aos-delay="0">Is there an official discord server for the game?<span><br/>- <a href="https://discord.gg/Y6ZSPwWSe6">This</a> is the official discord server for the game, enjoy it!</span></li>
+            <li data-aos="fade-right" data-aos-delay="0">Can I somewhere find the SCP objects currently foundable in the game?<span><br/>- I created <router-link to="List">this simple list</router-link> of all SCPs/Objets currently naturally foundable in the game. It will get replaced when the official SCP: Escape Together wiki is done.</span></li></ul>
         </div>
 </template>
 <script>
@@ -37,7 +37,7 @@ export default {
     font-weight: 400;
     top: 20%;
     a {
-        color: rgb(89, 137, 201);
+        color: #add3ff;
         text-decoration: none;
     }
     span {
@@ -65,9 +65,9 @@ export default {
     top: 0;
     margin: 0;
 }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 400px) {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 750px) {
       .faq-container {
-          height: 250vh;
+          height: 350vh;
           li {
               top: 10%;
               padding-left: 10px;
@@ -80,7 +80,7 @@ export default {
   }
   @media only screen and (min-device-width: 200px) and (max-device-width: 400px) {
       .faq-container {
-          height: 420vh;
+          height: 530vh;
           li {
               top: 10%;
               padding-left: 10px;
@@ -93,7 +93,7 @@ export default {
 }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
         .faq-container {
-          height: 120vh;
+          height: 270vh;
           li {
               top: 40%;
               padding-left: 10px;

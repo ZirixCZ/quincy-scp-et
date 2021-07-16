@@ -2,8 +2,8 @@
     <div class="title-div">
       <div class="header-image" data-aos="fade-in" data-aos-delay="200"></div>
       <h1 data-aos="fade-up" data-aos-delay="50">Quincy's Party</h1>
-      <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250" onclick="location.href='https://discord.com/invite/F2zFuaB';"><button>join us</button></div>
-      <h2 data-aos="fade-up" data-aos-delay="150">There is <span>{{ players }}</span> people playing right now.</h2>
+      <div class="button-wrapper" data-aos="fade-up" data-aos-delay="250" onclick="location.href='https://discord.com/invite/F2zFuaB';"><button>join us!</button></div>
+      <h2 data-aos="fade-up" data-aos-delay="150">There are <span>{{ players }}</span> people playing right now.</h2>
     </div>
   <div class="nav">
     <div class="nav-item" data-aos="fade-right" data-aos-delay="700"><button class="switch nav-item" @click="darkThemeSwitch"><i class="fas fa-moon"></i></button></div>
@@ -20,7 +20,7 @@ export default {
     return {
       players: 0,
       showPara: true,
-      lastScrollPosition: 0
+      lastScrollPosition: 0,
     }
   },
   async mounted () {
@@ -78,6 +78,7 @@ export default {
   height: 100vh;
   color: rgb(247, 247, 247);
   h1 {
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     top: 40%;
     font-size: 150px;
@@ -96,18 +97,26 @@ export default {
     position: relative;
     top: 55%;
   button {
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     width: 250px;
     height: 50px;
-    word-spacing: 4px;
-    letter-spacing: 2px;
+    font-weight: 600;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
     background-color:rgb(250, 250, 250);
-    border-color: #2c3e50;
+    border: none;
+    outline: none;
+    color:#222222;
     cursor: pointer;
+    border-radius: 5px;
     transition: 0.2s ease-in-out;
+    box-shadow: #1e2a36 0px 0px 20px;
     &:hover {
       width: 220px;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
 
     }
   }

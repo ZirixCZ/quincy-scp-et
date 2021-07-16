@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <div class="titleLeft" data-aos="fade-up" data-aos-delay="100"><h2>About SCP:ET</h2><p>Based off of the 2012 horror game SCP: Containment Breach. Partner up or compete against your friends to explore the vast facility as well as gather useful, unknown, and potentially dangerous items to assist your escape and evade the potentially dangerous anomalies that roam the locked down facility.</p></div>
-        <div class="titleRight" data-aos="fade-up" data-aos-delay="100"><h2>The plot</h2><p>Before the events of the game take place, several of the Foundation's sites and sectors were attacked, which caused several Euclid and Keter SCPs to be temporarily relocated to an unspecified site until repairs on the previous facilities are completed. It was unable to handle the quantity of SCPs it currently possessed.</p></div>
+        <div class="titleLeft" data-aos="fade-up" data-aos-delay="100"><h2>About SCP:ET</h2><p>SCP: Escape Together is a multiplayer horror game created by a team of developers who all share the love for the SCP universe. The game is based off of the original 2012 SCP: Containment Breach, adds new features, support and possibilities.</p></div>
+        <div class="titleRight" data-aos="fade-up" data-aos-delay="100"><h2>The plot</h2><p>The story takes places in an attacked facility. The attack caused several containment breaches on the Euclid and Keter levels. You are playing as a class-D personal, a test subject. You got left over and now have to find your way out.</p></div>
     </div>
 </template>
 

@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="notranslate" translate="no">
   <head>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
- 
-      gtag('config', 'G-HRYHZTM6MY');
-     </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -16,7 +9,7 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Quincy's Party - SCP: Escape Together</title>
+    <title><%= process.env.VUE_APP_TITLE%></title>
     <script src="https://kit.fontawesome.com/463cbf7f77.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -29,5 +22,28 @@
     <script>
       AOS.init();
     </script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCUBiOjFLabUvV-53hSjuF5USa2jDATtZQ",
+    authDomain: "scp-et-quincy.firebaseapp.com",
+    projectId: "scp-et-quincy",
+    storageBucket: "scp-et-quincy.appspot.com",
+    messagingSenderId: "529961366036",
+    appId: "1:529961366036:web:e37cd89682d27e1c492d01",
+    measurementId: "G-J5B2ZTL2P6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   </body>
 </html>
