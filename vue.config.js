@@ -1,5 +1,5 @@
 module.exports = {
-    devServer: {
-        proxy: 'https://scpetgame.com/'
-    }
+  devServer: {
+    proxy: "https://scpetgame.com/",
+  },
 };

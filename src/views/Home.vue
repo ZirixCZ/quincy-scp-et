@@ -2,7 +2,7 @@
   <div class="home">
     <HelloWorld />
     <InformationFlex />
-    <Events date="4/12" event1="Peanut Land" event2="Doctor Land"/>
+    <Events date="4/12" event1="Peanut Land" event2="Doctor Land" />
     <Faq />
     <Footer />
   </div>
@@ -12,7 +12,7 @@
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 import InformationFlex from "@/components/InformationFlex.vue";
-import Faq from "@/components/Faq.vue";
+//import Faq from "@/components/Faq.vue";
 import Events from "@/components/Events.vue";
 import Footer from "@/components/Footer.vue";
 
@@ -21,7 +21,7 @@ export default {
   components: {
     HelloWorld,
     InformationFlex,
-    Faq,
+    //Faq,
     Events,
     Footer,
   },
